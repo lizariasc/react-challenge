@@ -32,7 +32,15 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.page-background {
+  background-color: #ffe9ec;
+  height: 50vh;
+  color: #f5f5f5;
 }

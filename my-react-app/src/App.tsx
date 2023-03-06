@@ -9,13 +9,16 @@ class App extends React.Component<any, State> {
     return (
       <div className="App">
         <main>
-          <Button/>
+          <div className='page-background'>
+
+            <Button />
+          </div>
         </main>
-       
+
       </div>
     );
   }
-  }
- 
+}
+
 
 export default App;
